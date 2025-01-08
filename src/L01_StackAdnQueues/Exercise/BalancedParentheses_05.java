@@ -1,4 +1,4 @@
-package L01_StackAdnQueue.Exercise;
+package L01_StackAdnQueues.Exercise;
 
 import java.util.Scanner;
 

@@ -1,8 +1,8 @@
-package L01_StackAdnQueue.Exercise;
+package L01_StackAdnQueues.Exercise;
 
 import java.util.Scanner;
 
-public class MaximumElement_03 {
+public class BasicStackOperations_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
