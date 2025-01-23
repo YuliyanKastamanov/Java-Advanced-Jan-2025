@@ -100,6 +100,10 @@ public class FormulaOne_ExamPrep {
                 //имаме преместване
                 if (matrix[newRow][newCol] == 'F'){
                     hasWon = true;
+                    //ako имаме 'F' и добавим оператор break ->
+                    // трябва да променим позицията на играча и след това да прекратим с оператор break
+                    matrix[rowPlayer][colPlayer] = '.';
+                    matrix[newRow][newCol] = 'P';
                     break;
                 }
             }
@@ -111,6 +115,15 @@ public class FormulaOne_ExamPrep {
         }
 
         //todo print matrix
+
+        if (hasWon) {
+            System.out.println("Well done, the player won first place!");
+        } else {
+            System.out.println("Oh no, the player got lost on the track!");
+        }
+
+        printMatrix(matrix);
+
 
 
 
@@ -131,6 +144,15 @@ public class FormulaOne_ExamPrep {
         }
 
         return value;
+    }
+
+    private static void printMatrix(char[][] matrix) {
+        for (char[] chars : matrix) {
+            for (int col = 0; col < matrix.length; col++) {
+                System.out.print(chars[col]);
+            }
+            System.out.println();
+        }
     }
 
     private static void fillMatrix(Scanner scanner, int size, char[][] matrix) {
