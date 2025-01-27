@@ -1,4 +1,4 @@
-package cat_lady;
+package L06_Defining_Classes.Exercise.CatLady_09;
 
 public class StreetExtraordinaire extends Cat{
     private double decibels;
