@@ -1,3 +1,5 @@
+package L08_Generics.Exercise.Threeuple_11;
+
 public class Tuple<T1, T2> {
 
     protected T1 key;

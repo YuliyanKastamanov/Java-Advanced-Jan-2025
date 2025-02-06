@@ -1,3 +1,5 @@
+package L08_Generics.Exercise.Threeuple_11;
+
 public class Threeuple<T1, T2, T3> extends Tuple {
 
     private T3 threeUple;
