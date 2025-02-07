@@ -1,4 +1,5 @@
-package IteratorsAndComparators;
+package L09_Iterators_and_Comparators.Exercise.Collection_02;
+
 
 public class CommandParser {
 

@@ -1,4 +1,4 @@
-package pr08_PetClinics;
+package L09_Iterators_and_Comparators.Exercise.PetClinics_08;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package pr08_PetClinics;
+package L09_Iterators_and_Comparators.Exercise.PetClinics_08;
 
 public class Pet {
     private String name;

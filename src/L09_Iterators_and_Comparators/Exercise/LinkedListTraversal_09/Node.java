@@ -1,4 +1,4 @@
-package P09_Linked_List_Traversal;
+package L09_Iterators_and_Comparators.Exercise.LinkedListTraversal_09;
 
 public class Node {
     int value;

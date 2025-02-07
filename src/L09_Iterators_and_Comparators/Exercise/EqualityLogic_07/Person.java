@@ -1,3 +1,5 @@
+package L09_Iterators_and_Comparators.Exercise.EqualityLogic_07;
+
 import java.sql.PseudoColumnUsage;
 import java.util.Comparator;
 import java.util.Objects;
