@@ -5,7 +5,8 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static L10_Exam_Preparation.lab.geoglyphs.ConstantMessages.*;
+import static JavaAdvanced.L10_Exam_Preparation.lab.geoglyphs.ConstantMessages.*;
+
 
 public class Location {
 
