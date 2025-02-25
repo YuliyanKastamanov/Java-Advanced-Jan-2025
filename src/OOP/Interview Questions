@@ -1,0 +1,25 @@
+Junior Java Interview Questions:
+
+1. What is OOP?
+	-> Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects."
+	It allows developers to structure programs using objects that represent real-world entities.
+	OOP promotes modularity, re-usability, and scalability by organizing code into classes and objects.
+
+2. What is an object?
+	-> An object is an instance of a class. It contains state (attributes) and behavior (methods).
+	For example, a Car object may have attributes like color and model and behaviors like startEngine() and brake().
+
+3. What is a class?
+
+	->A class is a blueprint or template for creating objects.
+	It defines attributes (fields/variables) and behaviors (methods/functions) that its objects will have.
+
+4. Which are the main principles/pillars of OOP?
+	-> Encapsulation
+	-> Abstraction
+	-> Inheritance
+	-> Polymorphism
+
+
+
+
