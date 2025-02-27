@@ -19,6 +19,7 @@ public class Pizza {
     }
 
     private void setName(String name) {
+        //name.trim().isEmpty() instead of !name.trim().isEmpty()
         if(!name.trim().isEmpty() && name.length() <= 15){
             this.name = name;
         }else {
