@@ -11,7 +11,7 @@ public class RaceMotorcycle extends Motorcycle{
         this.maxSpeed = maxSpeed;
     }*/
 
-    public RaceMotorcycle(double fuel, int horsePower, int maxSpeed) {
+    public RaceMotorcycle(double fuel, int horsePower) {//, int maxSpeed - was set as argument
         super(fuel, horsePower);
         super.setFuelConsumption(DEFAULT_FUEL_CONSUMPTION);
         //this.maxSpeed = maxSpeed;
