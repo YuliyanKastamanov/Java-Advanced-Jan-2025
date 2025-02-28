@@ -22,4 +22,32 @@ Junior Java Interview Questions:
 
 
 
+5. What is Encapsulation?
+	-> Encapsulation is one of the four pillars of OOP.	It refers to hiding the internal details of an object and only exposing what is necessary.
+	This is done by restricting direct access to certain variables and methods using access modifiers (like private, public), and providing controlled access through getter and setter methods.
+
+6. How many access modifiers exist in Java?
+	-> Java has four access modifiers:
+	1. public
+	2. private
+	3. protected
+	4. (default) (also known as "package-private")
+
+
+
+7. How does they work?
+    Access modifiers control the visibility of classes, methods, and variables.
+
+    Modifier	Access within the same class	Access within the same package	Access in subclasses (other packages)	Accessible everywhere
+    private	                ✅ Yes	            ❌ No	            			❌ No	                        		❌ No
+    default (no modifier)	✅ Yes	            ✅ Yes	        				❌ No	                        		❌ No
+    protected				✅ Yes				✅ Yes							✅ Yes (only in subclasses)				❌ No
+    public					✅ Yes				✅ Yes							✅ Yes									✅ Yes
+
+
+    ✔ private → Strictest, only within the class.
+    ✔ (default) → Accessible within the same package.
+    ✔ protected → Accessible within the package + subclasses.
+    ✔ public → Accessible from anywhere.
+
 
