@@ -1,4 +1,4 @@
-package Person;
+package OOP.L03_Inheritance.Exercise.Person;
 
 public class Person {
     private String name;

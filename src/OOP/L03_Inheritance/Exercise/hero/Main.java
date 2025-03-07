@@ -1,4 +1,4 @@
-package hero;
+package OOP.L03_Inheritance.Exercise.hero;
 
 public class Main {
     public static void main(String[] args) {

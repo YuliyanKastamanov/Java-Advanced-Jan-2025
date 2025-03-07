@@ -50,4 +50,86 @@ Junior Java Interview Questions:
     ✔ protected → Accessible within the package + subclasses.
     ✔ public → Accessible from anywhere.
 
+8.  What is Inheritance in Java?
+	-> Inheritance is an OOP principle that allows one class (child/subclass)
+	to inherit the properties and behaviors of another class (parent/superclass).
+	It promotes code re-usability and allows hierarchical classification of classes.
+
+9. What are the different types of inheritance in Java?
+	-> Single Inheritance (One parent, one child)
+	-> Multilevel Inheritance (A class inherits from another class, which also inherits from another class)
+	-> Hierarchical Inheritance (Multiple child classes inherit from a single parent class)
+
+10. Can a subclass inherit private members of a superclass?
+	-> No, a subclass cannot inherit private members of a superclass directly.
+	However, it can access them using public/protected getter and setter methods.
+
+11. What is the super keyword in Java?
+	-> Calling the parent class constructor
+	-> Calling the parent class methods
+	-> Accessing the parent class variables
+
+
+12. What is an interface in Java?
+	-> An interface in Java is a blueprint of a class that contains only abstract methods (before Java 😎
+	and	default/static methods (from Java 8 onwards).
+	It is used to achieve abstraction and multiple inheritance in Java.
+
+13. What is abstraction in Java?
+	-> Abstraction is an OOP principle that hides implementation details and only shows the necessary features.
+	It is achieved in Java using:
+	->Abstract Classes (abstract keyword)
+	->Interfaces (interface keyword)
+
+14. What is the difference between an abstract class and an interface?
+	-> Methods:
+	Abstract Class 	-> 	Can have both abstract and concrete methods
+	Interface 		->  Only abstract methods (until Java 😎
+
+	-> Variables:
+	Abstract Class 	-> 	Can have instance variables
+	Interface 		->  Only static & final variables (constants)
+
+	-> Constructors:
+	Abstract Class 	-> 	Can have constructors
+	Interface 		->  Cannot have constructors
+
+	-> Multiple Inheritance:
+	Abstract Class 	-> 	Not supported
+	Interface 		->  Supported (a class can implement multiple interfaces)
+
+	->Access Modifiers:
+	Abstract Class 	-> 	Methods can be public, protected, private
+	Interface 		->  Methods are public by default
+
+15. How many levels of abstractions exist in java?
+	-> An abstract class can have both abstract (without implementation) and concrete (with implementation) methods.
+	It provides partial abstraction (0%–100%), meaning some methods can have a body,
+	while others must be implemented by subclasses.
+
+	-> Interfaces provide 100% abstraction (before Java 😎 since they only had abstract methods
+	(all methods were public and abstract by default).
+	Since Java 8, interfaces can have default and static methods, allowing some concrete implementations.
+
+16. Can an interface extend another interface?
+	-> Yes, an interface can extend another interface using the extends keyword.
+	A class that implements the child interface must implement all methods from both interfaces.
+
+17. Can a class implement multiple interfaces in Java?
+	-> Yes! Java supports multiple inheritance using interfaces. A class can implement multiple interfaces,
+	helping to achieve modularity and flexibility.
+
+18. What is polymorphism?
+	-> Polymorphism is an OOP principle that allows the same method or function to behave differently based on the object that calls it.
+	It enables code reusability and flexibility.
+	-> Polymorphism in Java can be classified into two types:
+
+	->Compile-time Polymorphism (Method Overloading)
+	->Runtime Polymorphism (Method Overriding)
+
+
+19. What is difference between Method Overriding and Method Overloading?
+	-> Method Overloading = Same method name, different parameters (Compile-time polymorphism).
+	-> Method Overriding = Same method, same parameters, different behavior in subclass (Runtime polymorphism).
+
 

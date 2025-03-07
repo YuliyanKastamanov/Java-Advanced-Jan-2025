@@ -1,4 +1,4 @@
-package NeedForSpeed;
+package OOP.L03_Inheritance.Exercise.NeedForSpeed;
 
 public class Vehicle {
 

@@ -1,4 +1,4 @@
-package Animal;
+package OOP.L03_Inheritance.Exercise.Animal;
 
 public class Tomcat extends Cat{
 

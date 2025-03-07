@@ -1,4 +1,4 @@
-package Zoo;
+package OOP.L03_Inheritance.Exercise.Zoo;
 
 public class Animal {
     private String name;

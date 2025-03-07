@@ -1,4 +1,4 @@
-package demo;
+package OOP.L03_Inheritance.Exercise.demo;
 
 public class Demo {
     public static void main(String[] args) {

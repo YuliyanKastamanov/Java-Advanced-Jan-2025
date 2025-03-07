@@ -1,4 +1,4 @@
-package Restaurant;
+package OOP.L03_Inheritance.Exercise.Restaurant;
 
 import java.math.BigDecimal;
 
