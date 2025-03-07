@@ -127,7 +127,6 @@ Junior Java Interview Questions:
 	->Compile-time Polymorphism (Method Overloading)
 	->Runtime Polymorphism (Method Overriding)
 
-
 19. What is difference between Method Overriding and Method Overloading?
 	-> Method Overloading = Same method name, different parameters (Compile-time polymorphism).
 	-> Method Overriding = Same method, same parameters, different behavior in subclass (Runtime polymorphism).
