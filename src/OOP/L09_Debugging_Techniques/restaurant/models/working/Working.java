@@ -1,7 +1,9 @@
 package OOP.L09_Debugging_Techniques.restaurant.models.working;
 
-import restaurant.models.client.Client;
-import restaurant.models.waiter.Waiter;
+
+
+import OOP.L09_Debugging_Techniques.restaurant.models.client.Client;
+import OOP.L09_Debugging_Techniques.restaurant.models.waiter.Waiter;
 
 import java.util.Collection;
 

@@ -1,6 +1,8 @@
 package OOP.L09_Debugging_Techniques.restaurant.core;
 
-import restaurant.common.Command;
+
+
+import OOP.L09_Debugging_Techniques.restaurant.common.Command;
 
 import java.io.IOException;
 import java.util.Arrays;

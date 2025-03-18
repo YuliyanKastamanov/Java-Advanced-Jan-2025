@@ -1,9 +1,9 @@
 package OOP.L09_Debugging_Techniques.restaurant.models.waiter;
 
-import restaurant.common.ExceptionMessages;
-import restaurant.models.orders.TakenOrders;
-import restaurant.models.orders.TakenOrdersImpl;
 
+import OOP.L09_Debugging_Techniques.restaurant.common.ExceptionMessages;
+import OOP.L09_Debugging_Techniques.restaurant.models.orders.TakenOrders;
+import OOP.L09_Debugging_Techniques.restaurant.models.orders.TakenOrdersImpl;
 
 public abstract class BaseWaiter implements Waiter{
 

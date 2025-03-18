@@ -1,10 +1,12 @@
 package OOP.L09_Debugging_Techniques.restaurant.repositories;
 
-import restaurant.models.waiter.Waiter;
+
+import OOP.L09_Debugging_Techniques.restaurant.models.waiter.Waiter;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+
 
 public class WaiterRepository implements Repository<Waiter>{
 

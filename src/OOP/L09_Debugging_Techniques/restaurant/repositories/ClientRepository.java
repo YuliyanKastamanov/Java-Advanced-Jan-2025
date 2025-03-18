@@ -1,10 +1,13 @@
 package OOP.L09_Debugging_Techniques.restaurant.repositories;
 
-import restaurant.models.client.Client;
+
+
+import OOP.L09_Debugging_Techniques.restaurant.models.client.Client;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+
 
 public class ClientRepository implements Repository<Client>{
 

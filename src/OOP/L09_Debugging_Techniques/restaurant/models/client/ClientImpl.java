@@ -1,6 +1,8 @@
 package OOP.L09_Debugging_Techniques.restaurant.models.client;
 
-import restaurant.common.ExceptionMessages;
+
+
+import OOP.L09_Debugging_Techniques.restaurant.common.ExceptionMessages;
 
 import java.util.ArrayList;
 import java.util.Collection;

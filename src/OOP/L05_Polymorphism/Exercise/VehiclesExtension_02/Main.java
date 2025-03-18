@@ -40,27 +40,32 @@ public class Main {
             String[] commandParts = scanner.nextLine().split("\\s+");
             String commandName = commandParts[0];
             String vehicleType = commandParts[1];
-            double fuelQuantityOrDistance = Double.parseDouble(commandParts[2]);
+
 
             switch (commandName){
                 case "Drive" -> {
+                    double distance = Double.parseDouble(commandParts[2]);
                     if(vehicleType.equals("Car")){
-                        System.out.println(car.drive(fuelQuantityOrDistance));
+                        System.out.println(car.drive(distance));
                     }else if(vehicleType.equals("Truck")){
-                        System.out.println(truck.drive(fuelQuantityOrDistance));
+                        System.out.println(truck.drive(distance));
                     } else if (vehicleType.equals("Bus")) {
-                        System.out.println(bus.drive(fuelQuantityOrDistance));
+                        System.out.println(bus.drive(distance));
                     }
                 }
-                case "DriveEmpty" -> System.out.println(bus.driveEmpty(fuelQuantityOrDistance));
+                case "DriveEmpty" -> {
+                    double distance = Double.parseDouble(commandParts[2]);
+                    System.out.println(bus.driveEmpty(distance));
+                }
 
                 case "Refuel" ->  {
+                    double fuelQuantity= Double.parseDouble(commandParts[2]);
                     if(vehicleType.equals("Car")){
-                        car.refuel(fuelQuantityOrDistance);
+                        car.refuel(fuelQuantity);
                     }else if(vehicleType.equals("Truck")){
-                        truck.refuel(fuelQuantityOrDistance);
+                        truck.refuel(fuelQuantity);
                     } else if (vehicleType.equals("Bus")) {
-                        bus.refuel(fuelQuantityOrDistance);
+                        bus.refuel(fuelQuantity);
                     }
                 }
             }

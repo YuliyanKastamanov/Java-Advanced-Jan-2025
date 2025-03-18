@@ -1,17 +1,19 @@
 package OOP.L09_Debugging_Techniques.restaurant.core;
 
-import restaurant.common.ConstantMessages;
-import restaurant.common.ExceptionMessages;
-import restaurant.models.client.Client;
-import restaurant.models.client.ClientImpl;
-import restaurant.models.waiter.FullTimeWaiter;
-import restaurant.models.waiter.HalfTimeWaiter;
-import restaurant.models.waiter.Waiter;
-import restaurant.models.working.Working;
-import restaurant.models.working.WorkingImpl;
-import restaurant.repositories.ClientRepository;
-import restaurant.repositories.Repository;
-import restaurant.repositories.WaiterRepository;
+
+
+import OOP.L09_Debugging_Techniques.restaurant.common.ConstantMessages;
+import OOP.L09_Debugging_Techniques.restaurant.common.ExceptionMessages;
+import OOP.L09_Debugging_Techniques.restaurant.models.client.Client;
+import OOP.L09_Debugging_Techniques.restaurant.models.client.ClientImpl;
+import OOP.L09_Debugging_Techniques.restaurant.models.waiter.FullTimeWaiter;
+import OOP.L09_Debugging_Techniques.restaurant.models.waiter.HalfTimeWaiter;
+import OOP.L09_Debugging_Techniques.restaurant.models.waiter.Waiter;
+import OOP.L09_Debugging_Techniques.restaurant.models.working.Working;
+import OOP.L09_Debugging_Techniques.restaurant.models.working.WorkingImpl;
+import OOP.L09_Debugging_Techniques.restaurant.repositories.ClientRepository;
+import OOP.L09_Debugging_Techniques.restaurant.repositories.Repository;
+import OOP.L09_Debugging_Techniques.restaurant.repositories.WaiterRepository;
 
 import java.util.Collection;
 import java.util.List;
