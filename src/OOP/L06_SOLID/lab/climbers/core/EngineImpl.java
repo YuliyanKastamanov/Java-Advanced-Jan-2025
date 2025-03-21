@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class EngineImpl implements Engine{
+public class EngineImpl implements Engine {
+
     private final Controller controller;
     private final Scanner scanner;
 
@@ -14,7 +15,6 @@ public class EngineImpl implements Engine{
         this.controller = controller;
         this.scanner = new Scanner(System.in);
     }
-
 
 
     @Override
@@ -68,8 +68,10 @@ public class EngineImpl implements Engine{
     }
 
     private String addClimber(String[] data) {
-        //TODO
-        return null;
+        String climberType = data[0];
+        String climberName = data[1];
+
+        return controller.addClimber(climberType, climberName);
     }
 
     private String addMountain(String[] data) {
@@ -77,20 +79,18 @@ public class EngineImpl implements Engine{
         String[] peak = Arrays.stream(data).skip(1).toArray(String[]::new);
         return controller.addMountain(mountainName, peak);
     }
+
     private String removeClimber(String[] data) {
-        //TODO
-        return null;
+        return controller.removeClimber(data[0]);
     }
 
     private String startClimbing(String[] data) {
-        //TODO
-        return null;
-    }
-    private String getStatistics() {
-        //TODO
-        return null;
+        return controller.startClimbing(data[0]);
     }
 
+    private String getStatistics() {
+        return controller.getStatistics();
+    }
 
 
 }

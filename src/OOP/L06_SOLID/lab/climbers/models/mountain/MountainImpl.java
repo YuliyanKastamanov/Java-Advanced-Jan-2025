@@ -18,8 +18,7 @@ public class MountainImpl implements Mountain {
 
     @Override
     public Collection<String> getPeaksList() {
-        // TODO check by Judge whether is needed
-        return Collections.unmodifiableCollection(this.peaksList);
+        return this.peaksList;
     }
 
     @Override
